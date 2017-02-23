@@ -1,0 +1,135 @@
+html, body {height: 100%;
+overflow-x:hidden;
+}
+/*
+Kolor navbaru
+*/
+.navbar-default {
+    background-color: #FFF;
+    border-color: #FFFFFF;   
+    color: #000;
+}
+.navbar-default .navbar-brand {
+    color: #4a4848;
+}
+/*
+PodĹ›wietlenie navbaru
+*/
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #f90c74;
+    background-color: transparent;
+}
+/*
+kolor linkĂłw
+*/
+.navbar-default .navbar-nav > li > a {
+    color: #4a4848;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover
+.navbar-default .navbar-nav > .active > a:focus {
+    
+    color: #FFF;
+    background-color: #1A242F;
+}
+/*
+podĹ›wietlenie linkĂłw
+*/
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #f90c74;
+    background-color: transparent;
+}
+.czcionka {
+ font-family: 'Lobster', cursive;   
+    font-size: 20px;
+}
+.navbar a{
+ margin-top:20px; 
+}
+
+
+   .cytat {
+    margin-top: 80px;
+    height: 200px;
+    text-align: center;
+    padding-top: 60px;
+    color: #5a5558;
+    margin-bottom: 0px;
+    background-color: gainsboro;
+    min-height: 250px;
+    font-family: 'Lobster', cursive; 
+}
+
+.cytat h1{
+    font-family: 'Lobster', cursive;
+}
+.logo img{
+     
+}   
+.srodek{
+     padding-top: 60px;
+    background-color: white;
+}
+.srodek h1{
+   color: deeppink;
+    font-family: 'Lobster';
+    
+}
+.tekstz{
+     padding-top: 60px;
+    background-color: white;
+    padding-bottom: 20px;
+}
+.zdjeciet{
+    float: right;
+}
+.wideo{
+    padding-top: 60px;
+    background-color: gainsboro;
+    padding-bottom: 30px;
+
+}
+.wideo h4{
+    font-family:'Lobster'; 
+}
+
+
+.czcionka2{
+    font-family: 'Lobster' ,cursive;
+    color:deeppink;
+}
+.formularz{
+    background-color: white;
+} 
+.formularz h2{
+    font-family: 'Lobster';
+    color:deeppink;
+}
+  
+    
+    
+    
+    @media (min-width: 768px) {
+    .text-justify-lg {
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) {
+    .text-justify-lg {
+        text-align: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    .text-justify-lg {
+        text-align: center;
+    }
+}
+
+    
+
+
+  
